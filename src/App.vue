@@ -42,6 +42,8 @@
       <Header/>
       <HeroSlider/>
       <Service/>
+      <Recent/>
+      <Footer/>
     </v-main>
   </v-app>
 </template>
@@ -51,6 +53,8 @@
 import Header from './components/Header';
 import HeroSlider from './components/HeroSlider';
 import Service from './components/Service';
+import Recent from './components/Recent';
+import Footer from './components/Footer';
 
 export default {
   name: 'App',
@@ -58,7 +62,9 @@ export default {
   components: {
     Header,
     HeroSlider,
-    Service
+    Service,
+    Recent,
+    Footer
   },
 
   data: () => ({

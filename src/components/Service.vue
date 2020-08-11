@@ -12,13 +12,13 @@
       </p>
     </v-col>
   </v-row>
-  <v-btn class=""
+  <v-card class="d-inline-flex text-center"  width="500" height="300" 
          v-for="item in servicesArr" :key="item.name"  :to="item.path"
            type="button"  v-bind:style='{ backgroundImage: "url(" + item.url + ")", }'>
           <span class="recent-item">{{item.name}}</span>
         
       
-  </v-btn>
+  </v-card>
      </v-container>
  </v-app>
 </template>
