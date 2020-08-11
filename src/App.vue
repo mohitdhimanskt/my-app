@@ -40,6 +40,8 @@
     <v-main>
       <!-- <HelloWorld/> -->
       <Header/>
+      <HeroSlider/>
+      <Service/>
     </v-main>
   </v-app>
 </template>
@@ -47,12 +49,16 @@
 <script>
 // import HelloWorld from './components/HelloWorld';
 import Header from './components/Header';
+import HeroSlider from './components/HeroSlider';
+import Service from './components/Service';
 
 export default {
   name: 'App',
 
   components: {
     Header,
+    HeroSlider,
+    Service
   },
 
   data: () => ({

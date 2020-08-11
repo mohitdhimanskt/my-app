@@ -10,8 +10,9 @@
           transition="scale-transition"
           width="40"
         />
+        
         <v-app-title class="headline text-uppercase">
-          <span class="font-weight-light">Far Out Himalayas</span>
+          <span class="font-weight-light red--text">Far Out Himalayas</span>
         </v-app-title>
       </div>
 
