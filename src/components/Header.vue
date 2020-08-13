@@ -27,6 +27,7 @@
       <v-btn>
         <span class="mr-2">SIGN UP</span>
       </v-btn>
+      <router-veiw></router-veiw>
     </v-app-bar>
   </v-app>
 </template>
