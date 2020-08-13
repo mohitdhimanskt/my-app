@@ -27,6 +27,7 @@
           >
             <v-icon size="24px">{{ icon }}</v-icon>
           </v-btn>
+          
         </v-card-title>
   
         <v-card-text class="py-2 white--text text-center">
