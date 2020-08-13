@@ -2,15 +2,17 @@
   <v-app>
     <v-app-bar app color="white">
       <div class="d-flex align-center">
-        <v-img
-          alt="Far Out Himalayas Logo"
-          class="shrink mr-2"
-          contain
-          src="https://farout.herokuapp.com/static/FOH.PNG"
-          transition="scale-transition"
-          width="40"
-        />
-        
+        <router-link to="/">
+          <v-img
+            alt="Far Out Himalayas Logo"
+            class="shrink mr-2"
+            contain
+            src="https://farout.herokuapp.com/static/FOH.PNG"
+            transition="scale-transition"
+            width="40"
+          />
+        </router-link>
+
         <v-app-title class="headline text-uppercase">
           <span class="font-weight-light red--text">Far Out Himalayas</span>
         </v-app-title>
@@ -18,16 +20,21 @@
 
       <v-spacer></v-spacer>
 
-      <v-btn>
-        <span class="mr-2">ABOUT US</span>
-      </v-btn>
-      <v-btn>
-        <span class="mr-2">Login</span>
-      </v-btn>
-      <v-btn>
-        <span class="mr-2">SIGN UP</span>
-      </v-btn>
-      <router-veiw></router-veiw>
+      <router-link to="/about">
+        <v-btn>
+          <span class="mr-2">ABOUT US</span>
+        </v-btn>
+      </router-link>
+      <router-link to="/login">
+        <v-btn>
+          <span class="mr-2">Login</span>
+        </v-btn>
+      </router-link>
+      <router-link to="/sign up">
+        <v-btn>
+          <span class="mr-2">SIGN UP</span>
+        </v-btn>
+      </router-link>
     </v-app-bar>
   </v-app>
 </template>

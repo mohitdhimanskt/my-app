@@ -9,6 +9,7 @@
         <br/>with this layout. It's built with default Material-UI components with
         <br/>little customization.
       </p>
+   <router-link to="/button">  <v-btn rounded color="primary" dark>Show More</v-btn></router-link>
     </v-col>
   </v-row>
 </v-app>
