@@ -13,7 +13,7 @@
     </v-col>
   </v-row>
   <v-card class="d-inline-flex text-center"  width="500" height="300" 
-         v-for="item in servicesArr" :key="item.name"  :to="item.path"
+         v-for="item in serviceArr" :key="item.name"  :to="item.path"
            type="button"  v-bind:style='{ backgroundImage: "url(" + item.url + ")", }'>
           <span class="recent-item">{{item.name}}</span>
         
@@ -24,10 +24,10 @@
 </template>
       <script>
 export default {
-  name: "Services",
+  name: "Service",
   data: function () {
     return {
-      servicesArr: [
+      serviceArr: [
         {
           name: "Skiing",
           url:
