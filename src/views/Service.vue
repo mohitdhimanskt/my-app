@@ -10,7 +10,7 @@
       </p>
   
     </v-col>
-  </v-row>
+  </v-row>  
 </v-app>
 </template>
 <script>

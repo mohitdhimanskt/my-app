@@ -4,10 +4,13 @@
       
 
       <v-app-title class="d-lg-flex mb-4">
-          <v-img clas
+          <v-img 
           
-          src="https://www.wellnessonfire.com/wp-content/uploads/2015/12/mckaysavage497863693credit_mckaysavageprayer_flag_pole_with_lhotse_and_everestnepal.jpg">
-        <h1 class="display-2 text-center font-weight-bold white--text mb-3">
+          src="https://www.wellnessonfire.com/wp-content/uploads/2015/12/mckaysavage497863693credit_mckaysavageprayer_flag_pole_with_lhotse_and_everestnepal.jpg"
+          max-width="1530"
+          max-height="400"
+          >
+        <h1 class="display-2 text-center font-weight-bold white--text mb-16">
           Experience The Best of Himalayas<br>
           We provide Best Guidance
           Your travel partner in Himalayas
