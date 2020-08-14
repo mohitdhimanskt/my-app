@@ -4,12 +4,7 @@
       
 
       <v-app-title class="d-lg-flex mb-4">
-          <!-- <v-img 
-          
-          src="https://www.wellnessonfire.com/wp-content/uploads/2015/12/mckaysavage497863693credit_mckaysavageprayer_flag_pole_with_lhotse_and_everestnepal.jpg"
-          max-width="1530"
-          max-height="400"
-          > -->
+         
            <v-carousel
       cycle
       height="400"
@@ -23,15 +18,7 @@
         reverse-transition="fade-transition"
         transition="fade-transition"
       >
-        <v-sheet
-          :items="items[i]"
-          height="100%"
-        >
-          <v-row
-            class="fill-height"
-            align="center"
-            justify="center"
-          >
+       
                   
           
         <h1 class="display-2 text-center font-weight-bold white--text mb-16">
@@ -45,10 +32,7 @@
           Praesent sit amet fermentum ipsum. Cras dictum ante nec metus pretium, <br>
       placerat hendrerit ex facilisis. Ut sed neque sem. Ut ipsum dolor, dapibus et<br>
                  imperdiet nec, ultricies non metus.</p>
-         
-          </v-row>
-        </v-sheet>
-      </v-carousel-item>
+          </v-carousel-item>
     </v-carousel>
       </v-app-title>
     </v-app>
@@ -59,22 +43,20 @@ export default {
   name: "Heroslider",
   data () {
     return {
-     
       items: [
         {
-          src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
+          src: 'https://www.wellnessonfire.com/wp-content/uploads/2015/12/mckaysavage497863693credit_mckaysavageprayer_flag_pole_with_lhotse_and_everestnepal.jpg',
         },
         {
-          src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
+          src: 'https://c0.wallpaperflare.com/preview/253/954/418/camping-camp-adventure-the-stake.jpg',
         },
         {
-          src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
+          src: 'https://www.jakpost.travel/wimages/large/231-2310119_mountain-trekking.jpg',
         },
         {
-          src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
+          src: 'https://da8qcmjpujrcg.cloudfront.net/media/marketplace/images/70/DSC_0647.JPG',
         },
       ],
-    
     }
   },
 };
