@@ -1,7 +1,7 @@
 
     <template>
 <v-app id="recent">
-     <v-row class="text-center">
+     <v-row class="text-centerflex flex-col mx-4 items-center bg-white-200 px-4 py-40 rounded-tb rounded-lr border-solid border-4 border-gray-400">
     <v-col class="mb-4">
       <h1 class="display-2 font-weight-bold mb-3 red--text">{{$route.params.service}}</h1>
 
